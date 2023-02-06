@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PriceCountController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Вага:">
+                     <HBox.margin>
+                        <Insets left="37.0" top="40.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="weight" prefHeight="30.0" prefWidth="80.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="35.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ширина:">
+                     <HBox.margin>
+                        <Insets left="20.0" top="40.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="width" prefHeight="30.0" prefWidth="80.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="35.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Довжина:">
+                     <HBox.margin>
+                        <Insets left="7.0" top="40.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="length" prefHeight="30.0" prefWidth="80.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="35.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Вистоа:">
+                     <HBox.margin>
+                        <Insets left="30.0" top="40.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="heihgt" prefHeight="30.0" prefWidth="80.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="35.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Вартість:">
+               <HBox.margin>
+                  <Insets left="240.0" top="40.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="res" strokeType="OUTSIDE" strokeWidth="0.0" text="count">
+               <HBox.margin>
+                  <Insets left="45.0" top="40.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="getres" mnemonicParsing="false" onAction="#play" text="Розрахувати">
+               <HBox.margin>
+                  <Insets left="250.0" top="35.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
